@@ -1,6 +1,6 @@
 # Quant Finance AGH — community documentation
 
-Shared onboarding and contribution guidance for Quant Finance AGH, a student scientific society at AGH University of Krakow.
+Shared onboarding and contribution guidance for Quant Finance AGH, a student science club at AGH University of Krakow.
 
 - [About the society and our Research and Development tracks](profile/README.md)
 - [Join GitHub and a project](docs/onboarding.md)

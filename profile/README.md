@@ -1,6 +1,6 @@
 # Quant Finance AGH
 
-We are a student scientific society at AGH University of Krakow, working at the intersection of quantitative finance, mathematics, statistics, machine learning, and software engineering.
+We are a student science club at AGH University of Krakow, working at the intersection of quantitative finance, mathematics, statistics, machine learning, and software engineering.
 
 Our community has two complementary tracks:
 
