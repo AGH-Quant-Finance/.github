@@ -1,0 +1,53 @@
+name: Project proposal
+description: Suggest a project, a coordinator, and a small first outcome.
+title: "[Proposal] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Society-wide project proposals are tracked in [AGH-Quant-Finance/.github](https://github.com/AGH-Quant-Finance/.github/issues/new?template=project-proposal.yml). A short proposal is enough. Submitting it does not create a repository or grant access. Keep private information and restricted data out of this public issue.
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      options:
+        - Quant Research
+        - Quant Development
+        - Research and Development
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Problem or research question
+      description: What would you like to investigate or build?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected outcome
+      description: Describe a useful result and a small first milestone.
+    validations:
+      required: true
+  - type: textarea
+    id: skills
+    attributes:
+      label: Required skills
+      description: What skills would help? Say where beginners could contribute.
+    validations:
+      required: true
+  - type: textarea
+    id: contributors
+    attributes:
+      label: Potential contributors
+      description: Share other people's GitHub usernames only with their agreement. It is fine to be looking for collaborators.
+    validations:
+      required: true
+  - type: input
+    id: coordinator
+    attributes:
+      label: Proposed coordinator
+      description: Who could coordinate the work? Say if you need help finding someone.
+    validations:
+      required: true
